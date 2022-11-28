@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.maindiv{
+    position: relative;
+    display: inline-block;
+}
+.smallerdiv{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+.timer{
+    background-color: #334155;
+    width: 100px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FECDD3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #FECDD3;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.healthmain{
+    position: relative;
+    height: 30px;
+    display: flex;
+    width: 100%;
+    border: 4px solid #FECDD3;
+}
+.enemhealth{
+    background-color: #BE123C;
+    width: 100%;
+}
+.playerhealth{
+    background-color: #BE123C;
+    width: 100%;
+}
+.life{
+    position: absolute;
+    background-color: #818CF8;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.playerhealtmain{
+    justify-content: flex-end;
+}
+.playerlife{
+    position: absolute;
+    background-color: #818CF8;
+    top: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+}
+.tie{
+    position: absolute;
+    color: #BE123C;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Press Start 2P', cursive;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+}
